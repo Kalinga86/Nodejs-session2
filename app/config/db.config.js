@@ -1,0 +1,14 @@
+module.exports={
+    HOST:"127.0.0.1",
+    PORT:"3306",
+    USER:"root",
+    PASSWORD:"1234",
+    DB:"ec_training",
+    dialect:"mysql",
+    pool:{
+        max:5,
+        min:0,
+        acquire:30000,
+        idle:1000
+    }
+};
